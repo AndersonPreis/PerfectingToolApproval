@@ -37,7 +37,11 @@ button {
   margin: auto;
 }
 
-label {
+.label {
   padding-top: 5px;
   padding-bottom: 2px;
+}
+
+input {
+  width: 70%
 }
