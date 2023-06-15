@@ -3,8 +3,10 @@ form {
   display: inline-block;
 }
 
-header {
-  background-color: black;
+.header {
+  color: white;
+  text-align: left;
+  background: #000000;
 }
 
 body {
