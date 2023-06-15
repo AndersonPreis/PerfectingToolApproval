@@ -32,7 +32,9 @@ button {
   color: black;
   text-align: center;
   display: block;
-  border-radius: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: auto;
 }
 
 label {
