@@ -40,6 +40,7 @@ button {
 .label {
   padding-top: 5px;
   padding-bottom: 2px;
+  display: block;
 }
 
 input {
