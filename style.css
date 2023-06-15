@@ -5,6 +5,7 @@ form {
   margin-bottom = auto;
   margin-left = auto;
   margin-right = auto;
+  border: 3px solid black;
 }
 
 .header {
@@ -23,12 +24,18 @@ body {
   margin: 0;
 }
 
-.center {
+.horizontalcenter {
   text-align: center;
   margin: auto;
   width: 60%;
   padding: 10px;
-  border: 3px solid black;
   display: inline-block;
 }
 
+.verticalcenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
