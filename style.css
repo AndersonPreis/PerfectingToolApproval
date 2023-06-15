@@ -1,6 +1,10 @@
 form {
   background-color: gold;
   display: inline-block;
+  margin-top = auto;
+  margin-bottom = auto;
+  margin-left = auto;
+  margin-right = auto;
 }
 
 .header {
@@ -11,4 +15,9 @@ form {
 
 body {
   background-color: ghostwhite;
+}
+
+.center {
+  text-align: center;
+  border: 3px solid green;
 }
