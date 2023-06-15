@@ -11,10 +11,12 @@ form {
   color: white;
   text-align: left;
   background: #000000;
+  font-family: Georgia, serif;
 }
 
 body {
   background-color: ghostwhite;
+  font-family: Gerogia, serif;
 }
 
 .center {
