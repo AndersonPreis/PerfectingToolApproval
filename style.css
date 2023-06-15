@@ -13,9 +13,10 @@ form {
   text-align: left;
   background: black;
   font-family: Arial, sans-serif;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
   padding: 60px;
+  position: absolute;
 }
 
 body {
