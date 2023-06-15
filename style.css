@@ -1,11 +1,13 @@
 .login {
-  background-color: gold;
   display: inline-block;
   margin-top = auto;
   margin-bottom = auto;
   margin-left = auto;
   margin-right = auto;
   border: 3px solid black;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
 }
 
 .header {
@@ -23,19 +25,4 @@ body {
   background-color: gold;
   font-family: Arial, sans-serif;
   padding-top: 200px;
-}
-
-.horizontalcenter {
-  text-align: center;
-  margin: auto;
-  width: 40%;
-  padding: 10px;
-  display: inline-block;
-}
-
-.verticalcenter {
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
