@@ -18,6 +18,8 @@
   padding: 45px;
   position: absolute;
   width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 body {
