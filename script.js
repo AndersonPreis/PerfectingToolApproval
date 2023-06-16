@@ -1,5 +1,4 @@
 document.getElementById("login").addEventListener("submit", login(event));
-document.getElementById("admin").addEventListener("click", navigate());
 
 function login(event){
    event.preventDefault();
@@ -12,6 +11,3 @@ function login(event){
    }
 }
 
-function navigate(){
-   window.location.href = "admin.html";
-}
