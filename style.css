@@ -21,13 +21,13 @@
 }
 
 body {
-  background-color: gold;
+  background-color: #FCD568;
   font-family: Arial, sans-serif;
   padding-top: 200px;
 }
 
 button {
-  background-color: gold;
+  background-color: #FCD568;
   border: none;
   color: black;
   text-align: center;
