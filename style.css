@@ -58,3 +58,9 @@ input[type=password] {
   margin: 10px 0px;
   padding: 2px 6px;
 }
+
+button:hover {
+  background-color: black;
+  border: 1px solid #FCD568;
+  color: #FCD568;
+}
