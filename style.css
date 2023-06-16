@@ -60,7 +60,5 @@ input[type=password] {
 }
 
 button:hover {
-  background-color: black;
-  border: 1px solid #FCD568;
-  color: #FCD568;
+  opacity: 0.8;
 }
