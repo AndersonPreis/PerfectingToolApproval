@@ -28,7 +28,6 @@ body {
 
 button {
   background-color: #FCD568;
-  border: none;
   color: black;
   text-align: center;
   display: block;
@@ -61,5 +60,5 @@ input[type=password] {
 
 button:hover {
   opacity: 0.8;
-  border: none;
+  border: 1px solid #FCD568;
 }
