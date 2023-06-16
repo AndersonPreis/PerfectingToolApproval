@@ -1,3 +1,8 @@
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click", function(){
+   alert("You clicked me");
+})
 
 function login(){
   window.alert("login function executing...");
