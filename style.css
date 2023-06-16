@@ -50,3 +50,11 @@ input[type=text] {
   margin: 10px 0px;
   padding: 2px 6px;
 }
+
+input[type=password] {
+  width: 70%;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 10px 0px;
+  padding: 2px 6px;
+}
