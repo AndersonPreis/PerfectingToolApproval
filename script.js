@@ -1,4 +1,6 @@
-document.getElementById("login").addEventListener("submit", function(event) {
+document.getElementById("login").addEventListener("submit", login(event));
+
+function login(evemt){
    event.preventDefault();
    var email = document.getElementById("email").value;
    var password = document.getElementById("password").value;
@@ -7,4 +9,4 @@ document.getElementById("login").addEventListener("submit", function(event) {
    } else {
      alert("Invalid username or password");
    }
-});
+}
