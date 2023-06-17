@@ -1,7 +1,7 @@
 .login {
   display: block;
   margin: auto;
-  border: none;
+  border: 2px solid black;
   text-align: center;
   width: 40%;
   padding: 10px;
@@ -31,23 +31,33 @@ button {
   color: black;
   text-align: center;
   display: inline-block;
-  border: none;
+  border-radius: 5px;
+  border: 1px solid black;
   margin: auto;
 }
 
+.label {
+  padding-top: 5px;
+  padding-bottom: 2px;
+  display: block;
+}
+
 input[type=email] {
-  border: none;
-  border-bottom: 1px solid black;
-  background-color: khaki;
+  width: 70%;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 10px 0px;
+  padding: 2px 6px;
 }
 
 input[type=password] {
-  border: none;
-  border-bottom: 1px solid black;
-  background-color: khaki;
+  width: 70%;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 10px 0px;
+  padding: 2px 6px;
 }
 
 button:hover {
   border: 1px solid #FCD568;
-  font-weight: bold;
 }
