@@ -31,8 +31,7 @@ button {
   color: black;
   text-align: center;
   display: inline-block;
-  border-radius: 5px;
-  border: 1px solid black;
+  border: none;
   margin: auto;
 }
 
@@ -50,4 +49,5 @@ input[type=password] {
 
 button:hover {
   border: 1px solid #FCD568;
+  font-weight: bold;
 }
